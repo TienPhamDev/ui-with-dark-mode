@@ -26,11 +26,11 @@ a{
 }
 :root{
   --primary: #FEB34F;        
-  --text-primary: #FFFFFF;   
-  --text-secondary: #A5B4BC; 
+  --text-primary: #505961;   
+  --text-secondary: #505961; 
   --nav-bg: #24282B;         
-  --hero-bg: #343A3D;       
-  --features-bg: #3D4346;    
+  --hero-bg: #F9F9FA;       
+  --features-bg: #E1E2E4;    
   --footer-bg: #24282B; 
 }
 img{
@@ -40,7 +40,7 @@ img{
 /* header 
 /////////////////////// */
 .header-container{
-  width: 968px;
+  width: 868px;
   margin: 0 auto;
 }
 .header{
@@ -72,4 +72,40 @@ img{
 .nav > ul {
   display: flex; 
   gap: 8px;
+}
+
+
+/* Main 
+/////////////////////// */
+.hero{
+  padding: 48px;
+  background-color: var(--hero-bg);
+
+}
+.hero-section{
+  display: flex;
+  gap: 24px;
+}
+
+.hero-intro{
+  width: 60%;
+  padding-top: 12px;
+}
+.hero-headline{
+  font-size: 24px;
+  line-height: 1.1;
+}
+.hero-text-lightz{
+  font-size: 32px;
+  color: var(--primary);
+}
+.hero-pararagh{
+  line-height: 1.1;
+  letter-spacing: 0.01rem;
+  font-size: 0.9rem;
+}
+.hero-img{
+  width: 40%;
+  height: 100%;
+  border-radius: 10px;
 }
