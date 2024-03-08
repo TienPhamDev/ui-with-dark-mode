@@ -5,6 +5,7 @@
 }
 html{
   font-family: 'Inter',sans-serif;
+  font-size: 62.5%;
 }
 body{
   margin: 0;
@@ -40,8 +41,8 @@ a{
   --footer-bg: #24282B; 
 }
 img{
-  width: 20px;
-  height: 20px;
+  width: 2rem;
+  height: 2rem;
 }
 /* header 
 /////////////////////// */
@@ -51,13 +52,13 @@ img{
 }
 .header{
   background-color: var(--nav-bg);
-  height: 64px;
+  height: 6.4rem;
   width: 100%;
-  padding: 16px 0;
+  padding: 1.6rem 0;
 }
 .logo-img{
-  width: 16px;
-  height: 22px;
+  width: 1.6rem;
+  height: 2.2rem;
 }
 
 .header-nav{
@@ -68,7 +69,7 @@ img{
 .logo{
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.8rem;
 }
 .logo-text{
   background: linear-gradient(to left,#FFFFFF,var(--primary));
@@ -78,43 +79,43 @@ img{
 .nav{
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 1.6rem;
 }
 .nav > ul {
   display: flex; 
-  gap: 12px;
+  gap: 1.2rem;
 }
 .nav > ul > li > a{
   color: #E1E2E4;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 200;
 }
 .theme-btn{
-  width: 32px;
-  height: 32px;
+  width: 3.2rem;
+  height: 3.2rem;
   border-radius: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #505961;
   border: none;
-  padding: 2px;
+  padding: 0.2rem;
   transition: 0.3s;
 }
 .theme-btn:hover{
   background-color: #313436;
 }
 .theme-icon{
-  width: 14px;
-  height:14px;
+  width: 1.4rem;
+  height:1.4rem;
 }
 .download-btn{
-  padding: 8px;
+  padding: 0.8rem;
   background-color: var(--primary);
   font-weight: 700;
   letter-spacing: 0.05rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   transition: 0.3s;
 }
 .download-btn:hover{
