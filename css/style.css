@@ -72,6 +72,7 @@ img{
   gap: 0.8rem;
 }
 .logo-text{
+  font-size: 2rem;
   background: linear-gradient(to left,#FFFFFF,var(--primary));
   background-clip: text;
   color: transparent;
@@ -124,47 +125,47 @@ img{
 /* Main.hero section
 /////////////////////// */
 .hero{
-  padding: 62px;
+  padding: 6.2rem;
   background-color: var(--hero-bg);
   height: 50%;
 
 }
 .hero-section{
   display: flex;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 .hero-intro{
   width: 60%;
-  padding-top: 12px;
+  padding-top: 1.2rem;
 }
 .hero-headline{
-  font-size: 24px;
+  font-size: 2rem;
   line-height: 1.1;
 }
 .hero-text-lightz{
-  font-size: 32px;
+  font-size: 3.2rem;
   color: var(--primary);
 }
 .hero-pararagh{
   line-height: 1.1;
   letter-spacing: 0.02rem;
-  font-size: 0.9rem;
-  margin-top: 12px;
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
   font-weight: 400;
 }
 .hero-img{
   width: 40%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 .hero-btn{
-  padding: 12px;
+  padding: 1.2rem;
   color: #FFFFFF;
   background-color: var(--primary);
   border: none;
-  border-radius: 5px;
-  margin-top: 12px;
+  border-radius: 0.5rem;
+  margin-top: 1.2rem;
   transition: 0.3s;
   font-weight: bold;
   letter-spacing: 0.03rem;
@@ -178,23 +179,22 @@ img{
 
 .features{
   background-color: var(--features-bg);
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
   text-align: center;
   height: 50%;
 }
 .features-headline{
   text-align: center;
   color: var(--text-primary);
-  margin-bottom: 48px;
-  font-size: 24px;
+  margin-bottom: 4.8rem;
+  font-size: 2.4rem;
 }
 .features-content{
   display: grid;
   grid-template-columns: 0.2fr 1fr 0.2fr 0.2fr 1fr 0.2fr;
   grid-template-rows: 1fr 1fr;
-  row-gap: 48px;
-  
+  row-gap: 4.8rem.;rem 
 }
 .features-content > div:first-child{
   grid-area: 1 / 1 / 2 / 3;
@@ -211,23 +211,23 @@ img{
 .features-item{
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 1.2rem;
 }
 .features-icon{
-  width: 24px;
-  height: 24px;
+  width: 2.4rem;
+  height: 2.4rem;
   /* border: 2px solid #a8b4bc;
   padding: 8px;
   border-radius: 100px;   */
 }
 .features-icon-div{
-  width: 62px;
-  height: 62px;
+  width: 6.2rem;
+  height: 6.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 18px;
-  border: 2px solid #a8b4bc;
+  padding: 1.8rem;
+  border: 0.2rem solid #a8b4bc;
   background-color: var(--features-bg);
   border-radius: 100%;
 }
@@ -235,11 +235,11 @@ img{
   text-align: left;
 }
 .features-text-div h3{
-  font-size: 14px;
+  font-size: 1.4rem;
   color: var(--text-primary);
 }
 .features-text-div p{
-  font-size: 10px;
+  font-size: 1rem;
   color: var(--text-secondary  );
 }
 
@@ -247,7 +247,7 @@ img{
 /////////////////////// */
 .footer{
   background-color: var(--footer-bg);
-  padding: 48px;
+  padding: 4.8rem;
   /* position:fixed;
   width: 100%;
   bottom: 0; */
@@ -260,6 +260,6 @@ img{
 }
 .footer-content > ul > li > a{
   color: #F9F9FA;
-  font-size: 12px;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
