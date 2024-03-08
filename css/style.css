@@ -78,14 +78,48 @@ img{
 .nav{
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
 }
 .nav > ul {
   display: flex; 
-  gap: 8px;
+  gap: 12px;
 }
-
-
+.nav > ul > li > a{
+  color: #E1E2E4;
+  font-size: 14px;
+  font-weight: 200;
+}
+.theme-btn{
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #505961;
+  border: none;
+  padding: 2px;
+  transition: 0.3s;
+}
+.theme-btn:hover{
+  background-color: #313436;
+}
+.theme-icon{
+  width: 14px;
+  height:14px;
+}
+.download-btn{
+  padding: 8px;
+  background-color: var(--primary);
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.download-btn:hover{
+  background-color: #f9a940;
+}
 /* Main.hero section
 /////////////////////// */
 .hero{
