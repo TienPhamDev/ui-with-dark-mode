@@ -68,7 +68,12 @@ img{
 .logo{
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 8px;
+}
+.logo-text{
+  background: linear-gradient(to left,#FFFFFF,var(--primary));
+  background-clip: text;
+  color: transparent;
 }
 .nav{
   display: flex;
