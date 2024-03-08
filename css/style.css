@@ -101,9 +101,10 @@ img{
 }
 .hero-pararagh{
   line-height: 1.1;
-  letter-spacing: 0.01rem;
+  letter-spacing: 0.02rem;
   font-size: 0.9rem;
   margin-top: 12px;
+  font-weight: 400;
 }
 .hero-img{
   width: 40%;
@@ -117,4 +118,10 @@ img{
   border: none;
   border-radius: 5px;
   margin-top: 12px;
+  transition: 0.3s;
+  font-weight: bold;
+  letter-spacing: 0.03rem;
+}
+.hero-btn:hover{
+  background-color: #f9a940;
 }
