@@ -194,7 +194,7 @@ img{
   display: grid;
   grid-template-columns: 0.2fr 1fr 0.2fr 0.2fr 1fr 0.2fr;
   grid-template-rows: 1fr 1fr;
-  row-gap: 4.8rem.;rem 
+  row-gap: 4.8rem; 
 }
 .features-content > div:first-child{
   grid-area: 1 / 1 / 2 / 3;
