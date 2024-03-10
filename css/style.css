@@ -38,11 +38,29 @@ a{
   --nav-bg: #24282B;         
   --hero-bg: #F9F9FA;       
   --features-bg: #E1E2E4;    
-  --footer-bg: #24282B; 
+  --footer-bg: #24282B;
+  
+}
+.dark-mode{
+ --primary: #FEB34F;     
+ --text-primary: #FFFFFF;  
+ --text-secondary: #A5B4BC;
+ --nav-bg: #24282B;        
+ --hero-bg: #343A3D;       
+ --features-bg: #3D4346;   
+ --footer-bg: #24282B; 
 }
 img{
   width: 2rem;
   height: 2rem;
+}
+.ombre-text{
+  background: linear-gradient(to left,white,var(--primary));
+  background-clip: text;
+}
+.light-icon{
+  src: "assets/icon-sun-white.png";
+  alt: "sun";
 }
 /* header 
 /////////////////////// */
@@ -142,6 +160,7 @@ img{
 .hero-headline{
   font-size: 2rem;
   line-height: 1.1;
+  color: var(--text-primary);
 }
 .hero-text-lightz{
   font-size: 3.2rem;
@@ -153,6 +172,7 @@ img{
   font-size: 1.2rem;
   margin-top: 1.2rem;
   font-weight: 400;
+  color: var(--text-secondary);
 }
 .hero-img{
   width: 40%;
@@ -161,7 +181,7 @@ img{
 }
 .hero-btn{
   padding: 1.2rem;
-  color: #FFFFFF;
+  color: var(--hero-bg);
   background-color: var(--primary);
   border: none;
   border-radius: 0.5rem;
@@ -230,6 +250,7 @@ img{
   border: 0.2rem solid #a8b4bc;
   background-color: var(--features-bg);
   border-radius: 100%;
+  
 }
 .features-text-div{
   text-align: left;
