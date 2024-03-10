@@ -82,6 +82,7 @@ img{
 .header-nav{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo{
@@ -140,6 +141,12 @@ img{
 .download-btn:hover{
   background-color: #f9a940;
 }
+.menu{
+  width: 3rem;
+  height: 3rem;
+  display: none;
+}
+
 /* Main.hero section
 /////////////////////// */
 .hero{
@@ -283,4 +290,65 @@ img{
   color: #F9F9FA;
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+/* Media query
+////////////////////////////*/
+@media (max-width: 735px) {
+  body{
+    height: auto;
+  }
+  
+  .hero,.features,.footer{
+    padding: 3.2rem;
+    }
+}
+@media (max-width:680px){
+  .menu{
+    display: block;
+  }
+  .nav{
+    display: none;
+  }
+  .header-container,.container{
+    width: 95%;
+  }
+}
+@media (max-width:524px){
+  .hero{
+    padding: 1rem;
+  }
+  .hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  .hero-intro{
+    width: 100%;
+    text-align: center;
+  }
+  .hero-btn{
+    width: 70%;
+  }
+  .hero-img{
+    order: -1;
+    border-radius: 100px;
+    width: 50%;
+  }
+
+  .features-content{
+    display: flex;
+    flex-direction: column;
+    gap:1.8rem
+  }
+}
+@media(max-width: 412px){
+  .hero-headline,.features-headline{
+    font-size: 1.6rem;
+  }
+  .hero-pararagh{
+    font-size: 1rem;
+  }
 }

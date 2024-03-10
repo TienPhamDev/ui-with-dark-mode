@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .flex-container {
+      display: flex;
+    }
+
+    .flex-item {
+      margin: 5px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .item-1 {
+      order: 2; /* Change the order of this item */
+    }
+  </style>
+</head>
+<body>
+
+<div class="flex-container">
+  <div class="flex-item">Item 1</div>
+  <div class="flex-item item-1">Item 2 (Order changed)</div>
+  <div class="flex-item">Item 3</div>
+</div>
+
+</body>
+</html>
