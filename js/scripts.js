@@ -6,24 +6,31 @@ const featuresHeadline = document.querySelector(".features-headline");
 const featuresIcon = document.querySelectorAll(".features-icon");
 const featuresIconDiv = document.querySelectorAll(".features-icon-div");
 
+
 function changeFeaturesIcon(featuresIcon,src_1st,src_2nd,src_3rd,src_4th) {
+  // This function change features icon when clicked button change Mode
+  // It change src of the img
   featuresIcon[0].src = src_1st;
   featuresIcon[1].src = src_2nd;
   featuresIcon[2].src = src_3rd;
   featuresIcon[3].src = src_4th;
 }
+
 function changFeaturesIconDiv(featuresIconDiv, borderColor) {
+  // Function change the border color when clicked button change Mode
   for (let i of featuresIconDiv){
     i.style.borderColor = borderColor; 
   }
 }
 function changeOmbreText(heroTextLightz,featuresHeadline,heroColor,featuresColor,addOrRemove) {
+  // Function change hero section text Lightz.js and Features section headline
   heroTextLightz.style.color = heroColor;
   heroTextLightz.classList[`${addOrRemove}`]("ombre-text");
   featuresHeadline.style.color = featuresColor;
   featuresHeadline.classList[`${addOrRemove}`]("ombre-text");
 }
 function changeButtonIcon(btnImg,src,alt) {
+  // function change src in Img tag when clicked button change Mode
   btnImg.src = src;
   btnImg.alt = alt;
 }
