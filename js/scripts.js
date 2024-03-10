@@ -67,7 +67,10 @@ darkModeBTN.addEventListener("click", (e) => {
 });
 menuBTN.addEventListener("click", (e) => {
   if (e.target.classList.contains("menu") || e.target.tagName === "svg") {
-    menuBTN.firstElementChild.classList.add("close");
-    menuBTN.lastElementChild.classList.remove("close");
+    menuBTN.firstElementChild.classList.toggle("close");
+    menuBTN.lastElementChild.classList.toggle("close");
+    const nav = document.querySelector(".nav");
+    nav.classList.toggle("nav-mobile");
+    document.body.classList.toggle("overflow");
   }
  });
