@@ -14,7 +14,7 @@ function changeFeaturesIcon(featuresIcon,src_1st,src_2nd,src_3rd,src_4th) {
 }
 function changFeaturesIconDiv(featuresIconDiv, borderColor) {
   for (let i of featuresIconDiv){
-    i.style.borderColor = "var(--primary)"; 
+    i.style.borderColor = borderColor; 
   }
 }
 function changeOmbreText(heroTextLightz,featuresHeadline,heroColor,featuresColor,addOrRemove) {
@@ -49,8 +49,12 @@ darkModeBTN.addEventListener("click", (e) => {
     changeButtonIcon(themeIcon, "assets/icon-moon-white.png", "moon")
     heroImg.src = "assets/hero-light-mode.png";
     changeOmbreText(heroTextLightz, featuresHeadline,"var(--primary)","var(--text-primary)","remove");
-    
-    changFeaturesIconDiv(featuresIconDiv, "var(--features-bg)");
+    changeFeaturesIcon(featuresIcon,
+                        "assets/icon-lightning-gray.png",
+                        "assets/icon-syntax-gray.png",
+                        "assets/icon-wand-gray.png",
+                        "assets/icon-phone-gray.png")
+    changFeaturesIconDiv(featuresIconDiv, "#a8b4bc");
     document.body.classList.remove("dark-mode");
   }
  });
