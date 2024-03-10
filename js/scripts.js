@@ -5,7 +5,7 @@ const heroTextLightz = document.querySelector(".hero-text-lightz");
 const featuresHeadline = document.querySelector(".features-headline");
 const featuresIcon = document.querySelectorAll(".features-icon");
 const featuresIconDiv = document.querySelectorAll(".features-icon-div");
-
+const menuBTN = document.querySelector(".menu");
 
 function changeFeaturesIcon(featuresIcon,src_1st,src_2nd,src_3rd,src_4th) {
   // This function change features icon when clicked button change Mode
@@ -63,5 +63,11 @@ darkModeBTN.addEventListener("click", (e) => {
                         "assets/icon-phone-gray.png")
     changFeaturesIconDiv(featuresIconDiv, "#a8b4bc");
     document.body.classList.remove("dark-mode");
+  }
+});
+menuBTN.addEventListener("click", (e) => {
+  if (e.target.classList.contains("menu") || e.target.tagName === "svg") {
+    menuBTN.firstElementChild.classList.add("close");
+    menuBTN.lastElementChild.classList.remove("close");
   }
  });

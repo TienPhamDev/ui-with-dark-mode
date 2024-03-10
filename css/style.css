@@ -352,3 +352,13 @@ img{
     font-size: 1rem;
   }
 }
+
+/* Menu 
+///////////////////////*/
+
+.open{
+  display: block;
+}
+.close{
+  display: none;
+}
