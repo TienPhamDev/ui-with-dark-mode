@@ -17,6 +17,9 @@ body{
   min-height: 100vh;
 }
 
+.hero,.features{
+  flex-grow: 2;
+  }
 ul {
   list-style: none;
 }
@@ -314,9 +317,7 @@ img{
   .nav > .download-btn{
     display: none;
   } */
-  .hero,.features{
-    flex-grow: 2;
-    }
+
   .header-container,.container{
     width: 95%;
   }
