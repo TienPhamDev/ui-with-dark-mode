@@ -6,7 +6,7 @@ const featuresHeadline = document.querySelector(".features-headline");
 const featuresIcon = document.querySelectorAll(".features-icon");
 const featuresIconDiv = document.querySelectorAll(".features-icon-div");
 const menuBTN = document.querySelector(".menu");
-
+const headerlogo = document.querySelector(".logo");
 function changeFeaturesIcon(featuresIcon,src_1st,src_2nd,src_3rd,src_4th) {
   // This function change features icon when clicked button change Mode
   // It change src of the img
@@ -67,6 +67,7 @@ darkModeBTN.addEventListener("click", (e) => {
 });
 menuBTN.addEventListener("click", (e) => {
   if (e.target.classList.contains("menu") || e.target.tagName === "svg") {
+    menuBTN.style.zIndex = "999";
     menuBTN.firstElementChild.classList.toggle("close");
     menuBTN.lastElementChild.classList.toggle("close");
     const nav = document.querySelector(".nav");
