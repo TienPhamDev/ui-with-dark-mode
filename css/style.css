@@ -295,10 +295,6 @@ img{
 /* Media query
 ////////////////////////////*/
 @media (max-width: 735px) {
-  body{
-    height: 100vh;
-  }
-  
   .hero,.features,.footer{
     padding: 3.2rem;
     }
@@ -350,6 +346,17 @@ img{
   }
   .hero-pararagh{
     font-size: 1rem;
+  }
+}
+@media (max-width:376px){
+  .features{
+    padding: 2rem;
+  }
+  .features-headline{
+    margin-bottom: 2rem;
+  }
+  .footer-content{
+    flex-direction: column;
   }
 }
 
